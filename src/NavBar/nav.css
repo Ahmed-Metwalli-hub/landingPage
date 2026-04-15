@@ -1,0 +1,79 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 0 5px 0 #ddd;
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background: #fff;
+    overflow-x:hidden ;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0;
+
+}
+nav a:hover{
+    background: #ddd;
+
+}
+nav .menu{
+    display: none;
+}
+@media (max-width: 1000px ) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* position: relative; */
+        overflow-x: visible;
+    }
+    nav .ancors{
+        position: absolute;
+        width: 150px;
+        background: #000;
+        color: #fff;
+        left: -150px;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        z-index: 1111111111;
+        
+    }
+    nav .menu{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    nav .ancors.open{
+        left: 0;
+    }
+    nav .ancors a{
+        color: #fff;
+    }
+    
+}

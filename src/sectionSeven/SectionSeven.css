@@ -1,0 +1,28 @@
+.Section-seven{
+    background: #616161 ;
+    overflow-x: hidden;
+    
+    
+}
+.pro-con{
+    scale: 1.06;
+}
+.pro-title{
+    background: #f44336;
+
+}
+.pricing .pricing-body > p{
+    position: relative;
+    padding: 20px 0;
+}
+.pricing .pricing-body > p::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: #616161 ;
+    opacity: 0.2;
+
+}
