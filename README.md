@@ -9,3 +9,5 @@ A modern responsive landing page designed for high engagement and clean presenta
 
 ## Tech Stack
 HTML / CSS / JavaScript
+
+Live Demo: https://landing-page-geti.vercel.app/
